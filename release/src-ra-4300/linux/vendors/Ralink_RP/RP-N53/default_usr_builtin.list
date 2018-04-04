@@ -1,0 +1,61 @@
+#Please edit it as the following:
+#Region:
+#Title:
+#Type:
+#File:
+#Region and Type should be less than 8 characters.(0~9/a~z/A-Z or null)
+#Title should be less than 30 characters.(0~9/a~z/A-Z or null)
+#Finally,the playlist ends up with [PlayList End].
+#
+[PlayList]
+Region:EU
+Title:Kronehit
+Type:music
+File:http://onair.krone.at/kronehit.mp3.m3u
+
+Region:EU
+Title:Welle 1
+Type:music
+File:http://fra01.live.welle1.at:8128/listen.pls
+
+Region:EU
+Title:NRJ
+Type:music
+File:http://broadcast.infomaniak.net/nrjbe-high.mp3.m3u
+
+Region:EU
+Title:Fun Music
+Type:music
+File:http://broadcast.infomaniak.ch/funradiobe-high.mp3.m3u
+
+Region:EU
+Title:Q Music
+Type:music
+File:http://mp3streaming.q-music.be:80/QBE_MP3_HI.m3u
+
+Region:US
+Title:KBOO
+Type:music
+File:http://live.kboo.fm:8000/high
+
+Region:US
+Title:KRXQ
+Type:music
+File:http://provisioning.streamtheworld.com/pls/KRXQFM.pls
+
+Region:US
+Title:Alternative Addiction
+Type:music
+File:http://yp.shoutcast.com/sbin/tunein-station.pls?id=9473333
+
+Region:TW
+Title:SRADIO
+Type:music
+File:http://220.135.199.129:8080/listen.pls
+
+Region:TW
+Title:PTTRADIO
+Type:music
+File:http://cast.ptt.cc:8000/yes
+
+[PlayList End]

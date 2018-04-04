@@ -1,0 +1,44 @@
+menu "ASUS Miscellaneous options"
+
+config  SINGLE_SKU_IN_DRIVER
+	bool "Single sku in driver, not file"
+	default n
+
+config 	MTD_JFFS2_LEN
+	hex "MTD JFFS2 Partition Length (Unit:Bytes)"
+	default 0x0
+
+config  MODEL_RTAC1200
+	bool "RT-AC1200"
+	default n
+
+config  MODEL_RPAC56
+	bool "RP-AC56"
+	default n
+
+config  MODEL_RTAC1200GA1
+	bool "RT-AC1200GA1"
+	default n
+
+config  MODEL_RTAC1200GU
+	bool "RT-AC1200GU"
+	default n
+
+config  MODEL_RTN11PB1
+	bool "RT-N11P_b1"
+	default n
+	
+config  MODEL_RTN10PV3
+        bool "RT-N10P_V3"
+        default n 
+
+config  MODEL_RTAC51UP
+	bool "RT-AC51U+"
+	default n
+
+config  MODEL_RTAC53
+	bool "RT-AC53"
+	default n
+
+endmenu
+

@@ -1,0 +1,6 @@
+libavahi_common_la-i18n.lo libavahi_common_la-i18n.o: i18n.c ../config.h \
+  i18n.h
+
+../config.h:
+
+i18n.h:

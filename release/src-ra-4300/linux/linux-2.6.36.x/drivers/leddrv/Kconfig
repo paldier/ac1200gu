@@ -1,0 +1,16 @@
+menu "ASUS LED DRIVER"
+
+config	ASUS_LEDDRV
+	bool "ASUS LED driver"
+	---help---
+	  ASUS LED driver
+
+if ASUS_LEDDRV
+config ASUS_LEDDRV_DUAL_BAND
+	bool "support dual band"
+	depends on ASUS_LEDDRV=y
+	---help---
+	  support dual band
+endif # ASUS_LEDDRV
+
+endmenu
